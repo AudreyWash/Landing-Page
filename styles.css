@@ -111,7 +111,7 @@ html {
     margin: 128px 72px 72px;
     gap: 24px;
     padding: 32px;
-    border: 3px solid rgb(184, 30, 30);
+    border: 3px solid rgb(255, 0, 0);
     border-radius: 200px;
     box-shadow: 2px 2px 20px 2px;
     background: rgba(57, 60, 90, 0.7);
@@ -135,7 +135,7 @@ html {
     object-fit: cover;
     flex: 1 1 auto;
     max-width: 300px;
-    border: 15px solid rgb(184, 30, 30);
+    border: 15px solid rgb(255, 0, 0);
     border-radius: 50%;
     box-shadow: 2px 2px 3px;
   }
@@ -173,6 +173,7 @@ html {
     color: rgb(60, 255, 0);
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
     text-align: center;
+    font-family: 'Share Tech Mono';
   }
 
   .worker-icon {
