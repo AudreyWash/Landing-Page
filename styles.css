@@ -41,3 +41,59 @@ html {
     position: fixed;
     background-color:rgb(230, 250, 250);
   }
+
+.header-logo {
+    height: 36px;
+    margin-left: 24px;
+    border: 4px solid burlywood;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    transition: all 2.0s;
+  }
+
+.header-logo:hover {
+    border: 4px solid orange;
+    transform: rotate(360deg);
+    transition: all 2.0s;
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 12px;
+    
+  }
+  
+.nav-links a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 16px;
+  }
+
+  .nav-links a:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  
+  
+  
+  /*    TITLE SECTION    */
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient(60deg,rgba(57, 60, 90, 0.85),rgba(180, 180, 120, 0.5)), url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
