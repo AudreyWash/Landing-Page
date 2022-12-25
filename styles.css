@@ -185,5 +185,50 @@ html {
     font-weight: bold;
   }
 
+  /*    QUOTE SECTION     */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 128px 96px;
+    background-color: lightblue;
+    border-bottom: solid black 1px;
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+  }
   
+  .quote-section p {
+    text-align: end;
+    font-style: normal;
+    font-weight: 600;
+    color: sienna;
+  }
+  
+/* PROJECT PORTFOLIO SECTION */
+.portfolio-section {
+    justify-content: center;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient(60deg, rgba(57, 60, 90, 0.85),rgba(180, 180, 120, 0.5)), url(/images/city-background.avif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;
+  }
+
+  .portfolio-tile {
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding: 24px;
+    width: 300px;
+  }
   
