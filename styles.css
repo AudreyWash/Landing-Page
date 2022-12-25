@@ -249,7 +249,7 @@ html {
   .portfolio-icon {
     width: 200px;
     height: 200px;
-    border: 12px solid lightblue;
+    border: 12px solid red;
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
