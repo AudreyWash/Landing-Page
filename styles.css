@@ -12,7 +12,6 @@
 }
 
 html {
-    /*background-color: burlywood;*/
     scroll-behavior: smooth;
 }
 
@@ -27,7 +26,9 @@ html {
 }
   
   p {
-    color: whitesmoke;
+    color: white;
+    text-shadow: black;
+    font-family: 'Share Tech Mono';
 }
 
 .title {
@@ -45,7 +46,7 @@ html {
     align-items: center;
     width: 100%;
     position: fixed;
-    background-color:rgb(255, 255, 255);
+    background-color: white;
 }
 
 .header-logo {
@@ -77,6 +78,7 @@ html {
 }
   
 .nav-links a {
+    color: black;
     text-decoration: none;
     display: block;
     font-size: 20px;
@@ -311,7 +313,7 @@ html {
 }
   
 .contact-section a:hover {
-    color: lightskyblue;
+    color: white;
     text-decoration: none;
     font-weight: bolder;
     text-shadow: black 2px 2px;
